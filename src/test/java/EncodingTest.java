@@ -17,4 +17,9 @@ public class EncodingTest {
     public void checkTextInputted() {
         assertEquals("globe", testEncoding.getInputText());
     }
+
+    @Test
+    public void checkInputtedKey() {
+        assertEquals(2, testEncoding.getKey());
+    }
 }
