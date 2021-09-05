@@ -7,5 +7,8 @@ public class App {
 
         System.out.println("Enter your message:");
         String message = inputText.nextLine();
+
+        System.out.println("Enter your key:");
+        int key = inputText.nextInt();
     }
 }
