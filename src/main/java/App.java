@@ -13,7 +13,12 @@ public class App {
 
         Encoding encoding = new Encoding(yourMessage, yourKey);
         String encryption = encoding.encrypt(yourMessage,yourKey);
+        String encryptedMessage = encryption;
+
+        Decoding decoding = new Decoding(encryptedMessage, yourKey);
+        String decryption = decoding.decrypt(encryptedMessage, yourKey);
 
         System.out.println("Your encryption is : " +encryption);
+//        System.out.println("Your original message is: " + decryption);
     }
 }
