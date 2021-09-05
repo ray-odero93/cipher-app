@@ -24,7 +24,6 @@ public class App {
             case 'd':
                 Decoding another = new Decoding("", ' ');
                 System.out.println("your decryption is: " + another.decrypt(yourMessage, yourKey));
-
         }
     }
 }

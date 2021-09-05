@@ -11,7 +11,7 @@ public class Decoding {
         return this.key;
     }
 
-    public String getInputtedText() {
+    public String getInputText() {
         return this.message;
     }
 

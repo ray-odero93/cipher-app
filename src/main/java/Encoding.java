@@ -16,7 +16,7 @@ public class Encoding {
       return this.message;
     }
 
-    public String encrypt(String message, int key) {
+    public static String encrypt(String message, int key) {
         String encryptedMessage = " ";
         String letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         message = message.toUpperCase();
