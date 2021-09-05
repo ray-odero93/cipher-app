@@ -11,14 +11,20 @@ public class App {
         System.out.println("Enter your key: ");
         int yourKey = input.nextInt();
 
-        Encoding encoding = new Encoding(yourMessage, yourKey);
-        String encryption = encoding.encrypt(yourMessage,yourKey);
-        String encryptedMessage = encryption;
+        System.out.println("(E)ncode or (D)ecode?");
+        char choice = input.next().charAt(0);
 
-        Decoding decoding = new Decoding(encryptedMessage, yourKey);
-        String decryption = decoding.decrypt(encryptedMessage, yourKey);
+        switch (choice) {
+            case 'E':
+            case 'e':
+                Encoding random = new Encoding(yourMessage, yourKey);
+                System.out.println("your encryption is: " + random.encrypt(yourMessage, yourKey));
+                break;
+            case 'D':
+            case 'd':
+                Decoding another = new Decoding("", ' ');
+                System.out.println("your decryption is: " + another.decrypt(yourMessage, yourKey));
 
-        System.out.println("Your encryption is : " +encryption);
-//        System.out.println("Your original message is: " + decryption);
+        }
     }
 }
