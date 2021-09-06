@@ -15,8 +15,8 @@ This program uses the Caesar Cipher method of encryption to encrypt the messages
 
 |  Behaviour  |   Input   |    Output     |
 | :---------: | :-------: | :-----------: |
-| Encrypt: "" |   key:    | Encrypted: "" |
-| Decrypt: "" | key used: | Decrypted: "" |
+| Encrypt: "live long" |   key: 2   | Encrypted: "NKXG NQPI" |
+| Decrypt: "NKXG NQPI" | key used: 2 | Decrypted: "LIVE LONG" |
 
 ### Setup Installation Requirement
 
