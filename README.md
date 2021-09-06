@@ -1,11 +1,11 @@
 # Caesar-Cipher App
 
 This program uses Java to encrypt and decrypt messages by replacing the characters in the message by using an encryption key specified by the user
-Made with Java v11.0.
+Made with Java v11.0.3.
 
 ### Contributors
 
-Ray Odero
+Ray Odero.
 
 ### Description and Usage
 

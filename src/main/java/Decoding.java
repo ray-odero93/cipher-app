@@ -47,6 +47,9 @@ public class Decoding {
                 break;
             }
         }
+
         return originalMessage;
+
     }
+
 }
